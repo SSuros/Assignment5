@@ -13,7 +13,7 @@ public class WinMenu : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("SpeedRun");
+        SceneManager.LoadScene("MainGame");
     }
 
 }

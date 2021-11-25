@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("SpeedRun");
+        SceneManager.LoadScene("MainGame");
     }
 
     public void QuitGame()
