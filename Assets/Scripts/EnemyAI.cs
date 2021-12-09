@@ -21,11 +21,11 @@ public class EnemyAI : MonoBehaviour
     {
         Distance = Vector3.Distance(Player.transform.position, this.transform.position);
 
-        if(Distance <=25)
+        if(Distance <= 30)
         {
             isAngered = true;
         }
-        if (Distance > 25f)
+        if (Distance > 30f)
         {
             isAngered = false;
         }
